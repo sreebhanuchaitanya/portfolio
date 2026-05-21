@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu Chaitanya Mupparthi | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .bg-navy { background-color: #002147; }
+        .text-navy { color: #002147; }
+        .border-navy { border-color: #002147; }
+        .project-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        .nav-link:hover { color: #3b82f6; }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-navy">BCM</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="nav-link font-medium">Home</a>
+                    <a href="#about" class="nav-link font-medium">About</a>
+                    <a href="#skills" class="nav-link font-medium">Skills</a>
+                    <a href="#work" class="nav-link font-medium">Work</a>
+                    <a href="#projects" class="nav-link font-medium">Projects</a>
+                    <a href="#education" class="nav-link font-medium">Education</a>
+                    <a href="#contact" class="nav-link font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="pt-32 pb-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-6xl font-bold text-navy mb-4">Bhanu Chaitanya Mupparthi</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8">At the intersection of Data, Business, AI & Automation.</p>
+                <p class="text-lg text-gray-500 mb-10">Simplifying business processes and eliminating bottlenecks through qualitative and quantitative analysis.</p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="bg-navy text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-900 transition">View My Work</a>
+                    <a href="#contact" class="border-2 border-navy text-navy px-8 py-3 rounded-md font-semibold hover:bg-navy hover:text-white transition">Get in Touch</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 flex justify-center">
+                <div class="w-64 h-64 md:w-80 md:h-80 bg-gray-300 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                    <img src="https://via.placeholder.com/400x400?text=Bhanu+Chaitanya" alt="Bhanu Chaitanya" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">About Me</h2>
+                <div class="w-16 h-1 bg-navy mx-auto mt-4"></div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/3">
+                    <img src="https://via.placeholder.com/400x500?text=Professional+Portrait" alt="About Bhanu" class="rounded-lg shadow-md">
+                </div>
+                <div class="md:w-2/3">
+                    <p class="text-lg leading-relaxed mb-6">
+                        I am a Business and Analytics professional with over 8 years of experience driving data and market research analysis. My expertise lies in understanding complex business challenges and integrating AI and automation to streamline processes and enhance performance.
+                    </p>
+                    <p class="text-lg leading-relaxed mb-6">
+                        With global exposure across India, the UK, and Nigeria, and deep market knowledge of the USA, EU, Middle East, and Africa, I bring a unique perspective to every project. I specialize in both qualitative and quantitative analysis, helping shape business strategies backed by rigorous secondary research.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        My goal is to make businesses better by simplifying operations, eliminating bottlenecks, and delivering measurable outcomes through data-driven insights.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">Expertise & Skills</h2>
+                <div class="w-16 h-1 bg-navy mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-navy">
+                    <i class="fas fa-chart-line text-3xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Analytics & Research</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Data Research & Analysis</li>
+                        <li>Market Research</li>
+                        <li>Qualitative & Quantitative</li>
+                        <li>Competitive Intelligence</li>
+                        <li>Visualization</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-navy">
+                    <i class="fas fa-briefcase text-3xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Business & Strategy</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Business Analytics</li>
+                        <li>Consulting</li>
+                        <li>Go-to-Market Strategy</li>
+                        <li>Process Design</li>
+                        <li>KPI Building</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-navy">
+                    <i class="fas fa-robot text-3xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">AI & Automation</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Prompt Engineering</li>
+                        <li>Workflow Automation (n8n)</li>
+                        <li>ML-based Classification</li>
+                        <li>AI Tool Integration</li>
+                        <li>SaaS Applications</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm border-t-4 border-navy">
+                    <i class="fas fa-tools text-3xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Tools & Tech</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li>Power BI (DAX)</li>
+                        <li>Python (Pandas, ML)</li>
+                        <li>SQL</li>
+                        <li>CRM (Hubspot, Odoo)</li>
+                        <li>MS Excel (Advanced)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work History Section -->
+    <section id="work" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">Work History</h2>
+                <div class="w-16 h-1 bg-navy mx-auto mt-4"></div>
+            </div>
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row gap-8 border-l-4 border-navy pl-8 relative">
+                    <div class="absolute w-4 h-4 bg-navy rounded-full -left-[10px] top-0"></div>
+                    <div class="md:w-1/4">
+                        <span class="text-lg font-bold text-navy">May 2025 - Aug 2025</span>
+                        <p class="text-gray-500">Coventry, UK</p>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-bold">Business Analyst - Consultant</h3>
+                        <p class="text-xl text-gray-600 mb-4">CU Services Ltd</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Led strategic consultancy for Coventry University’s commercial division (EIO).</li>
+                            <li>Conducted market and competitor analysis using Ansoff Matrix, Porter’s Five Forces, and SWOT.</li>
+                            <li>Analyzed CPD product offerings contributing 45–50% of revenue.</li>
+                            <li>Designed interactive dashboards in Excel and Power BI for senior leadership.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 border-l-4 border-gray-200 pl-8 relative">
+                    <div class="absolute w-4 h-4 bg-gray-200 rounded-full -left-[10px] top-0"></div>
+                    <div class="md:w-1/4">
+                        <span class="text-lg font-bold text-navy">Jul 2022 - Present</span>
+                        <p class="text-gray-500">Hyderabad, India</p>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-bold">Team Lead, Data Research and Analysis</h3>
+                        <p class="text-xl text-gray-600 mb-4">Hidden Brains Infotech</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Spearheaded sales data strategy, boosting data output by 30%.</li>
+                            <li>Implemented AI and automation tools (ChatGPT, Hubspot, Apollo) into workflows.</li>
+                            <li>Managed a 3-5 member data team and built a 20K+ qualified prospect database.</li>
+                            <li>Led market expansion strategies for USA, UK, Middle East, and SEA regions.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 border-l-4 border-gray-200 pl-8 relative">
+                    <div class="absolute w-4 h-4 bg-gray-200 rounded-full -left-[10px] top-0"></div>
+                    <div class="md:w-1/4">
+                        <span class="text-lg font-bold text-navy">Sep 2018 - Jun 2022</span>
+                        <p class="text-gray-500">Ahmedabad, India</p>
+                    </div>
+                    <div class="md:w-3/4">
+                        <h3 class="text-2xl font-bold">Executive, Business Development</h3>
+                        <p class="text-xl text-gray-600 mb-4">Hidden Brains Infotech</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Identified 20-30 new client opportunities per year through market analysis.</li>
+                            <li>Managed global RFP/RFQ processes for IT services.</li>
+                            <li>Designed and executed targeted email marketing campaigns.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">Featured Projects</h2>
+                <div class="w-16 h-1 bg-navy mx-auto mt-4"></div>
+            </div>
+            
+            <!-- Project Slider Container -->
+            <div class="relative">
+                <div id="project-slider" class="flex transition-transform duration-500 ease-in-out gap-6">
+                    <!-- Project 1 -->
+                    <div class="min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)]">
+                        <a href="projects/sales-intelligence.html" class="block bg-white rounded-lg shadow-md overflow-hidden project-card">
+                            <img src="https://via.placeholder.com/600x400?text=Sales+Intelligence" alt="Project 1" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">Sales Intelligence Platform</h3>
+                                <p class="text-gray-600 mb-4 line-clamp-2">Built a 20K+ qualified prospect database and increased actionable data output by 30%.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Power BI</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">SQL</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)]">
+                        <a href="projects/ai-calling-tool.html" class="block bg-white rounded-lg shadow-md overflow-hidden project-card">
+                            <img src="https://via.placeholder.com/600x400?text=AI+Calling+Tool" alt="Project 2" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">AI Outbound Calling Data</h3>
+                                <p class="text-gray-600 mb-4 line-clamp-2">Used Python & ML-based LDA classification for script/text insights on 40K+ records.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Python</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">ML</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">LDA</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="min-w-full md:min-w-[calc(50%-12px)] lg:min-w-[calc(33.333%-16px)]">
+                        <a href="projects/bi-modernization.html" class="block bg-white rounded-lg shadow-md overflow-hidden project-card">
+                            <img src="https://via.placeholder.com/600x400?text=BI+Modernization" alt="Project 3" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold mb-2">BI Dashboard Modernization</h3>
+                                <p class="text-gray-600 mb-4 line-clamp-2">Automated manual reporting workflows with interactive Power BI dashboards.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">Power BI</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">DAX</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs rounded-full">ETL</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Slider Controls -->
+                <button id="prev" class="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg text-navy hover:bg-gray-100 z-10">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next" class="absolute right-0 top-1/2 -translate-y-1/2 bg-white p-3 rounded-full shadow-lg text-navy hover:bg-gray-100 z-10">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-navy">Education & Certifications</h2>
+                <div class="w-16 h-1 bg-navy mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-8">Education</h3>
+                    <div class="space-y-8">
+                        <div>
+                            <h4 class="text-xl font-bold">MSc Business Analytics</h4>
+                            <p class="text-navy font-medium">Coventry University, UK</p>
+                            <p class="text-gray-500">Sep 2024 - Sep 2025 | GPA: 4.0/4.0 (Distinction)</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold">Executive Programme, Tech Entrepreneurship</h4>
+                            <p class="text-navy font-medium">Indian School of Business</p>
+                            <p class="text-gray-500">Jul 2016 - Jun 2018</p>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold">B.Tech Mechanical Engineering</h4>
+                            <p class="text-navy font-medium">JNT University, India</p>
+                            <p class="text-gray-500">Sep 2014 - Apr 2018 | GPA: 3.4/4.0 (Distinction)</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-8">Certifications</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate text-navy mt-1 mr-3"></i>
+                            <span>Microsoft Power BI PL-300 (Ongoing)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate text-navy mt-1 mr-3"></i>
+                            <span>Business Analytics on Excel - Johns Hopkins University</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate text-navy mt-1 mr-3"></i>
+                            <span>Certified Member: Institute of Analytics (2025-2026)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate text-navy mt-1 mr-3"></i>
+                            <span>B2B Market Research - LinkedIn Learning</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-navy text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold">Get In Touch</h2>
+                <div class="w-16 h-1 bg-white mx-auto mt-4"></div>
+            </div>
+            <div class="flex flex-col md:flex-row gap-12">
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-6">Let's Collaborate</h3>
+                    <p class="text-gray-300 mb-8">Whether you're looking for a full-time expert or a strategic consultant, I'm open to discussing how I can help your business grow through data and AI.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope w-10 text-xl"></i>
+                            <span>chaitanyambc@gmail.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone w-10 text-xl"></i>
+                            <span>+44 78871 33158</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-linkedin w-10 text-xl"></i>
+                            <a href="https://linkedin.com/in/chaitanyamupparthi" class="hover:text-blue-400">linkedin.com/in/chaitanyamupparthi</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt w-10 text-xl"></i>
+                            <span>Manchester, United Kingdom</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-white">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-white">
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-md bg-white/10 border border-white/20 focus:outline-none focus:border-white"></textarea>
+                        <button type="submit" class="bg-white text-navy px-8 py-3 rounded-md font-bold hover:bg-gray-200 transition">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-gray-500 border-t border-gray-100">
+        <p>&copy; 2026 Bhanu Chaitanya Mupparthi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const slider = document.getElementById('project-slider');
+        const prev = document.getElementById('prev');
+        const next = document.getElementById('next');
+        let scrollAmount = 0;
+
+        next.addEventListener('click', () => {
+            const cardWidth = slider.querySelector('div').offsetWidth + 24;
+            const maxScroll = slider.scrollWidth - slider.clientWidth;
+            scrollAmount = Math.min(scrollAmount + cardWidth, maxScroll);
+            slider.style.transform = `translateX(-${scrollAmount}px)`;
+        });
+
+        prev.addEventListener('click', () => {
+            const cardWidth = slider.querySelector('div').offsetWidth + 24;
+            scrollAmount = Math.max(scrollAmount - cardWidth, 0);
+            slider.style.transform = `translateX(-${scrollAmount}px)`;
+        });
+    </script>
+</body>
+</html>
